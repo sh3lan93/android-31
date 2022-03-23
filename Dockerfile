@@ -1,5 +1,9 @@
 FROM gradle
 
+LABEL version="1.0"
+LABEL maintainer="Mohamed Shalan"
+LABEL release-date="2022-03-23"
+
 RUN apt-get -y update 
 RUN apt-get install -y curl
 RUN apt-get install -y unzip
